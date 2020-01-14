@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox Example</title>
+      <style>
+          #container{
+              display:flex;
+              flex-direction:row;
+              width:100%;
+              flex-wrap:wrap;
+          }
+          .box1{
+              background-color:#f00;
+              margin:0 5px 5px 0;
+          }
+        @media only screen and (max-width: 500px) {
+          .box1{
+              width:500px;
+              height:200px;
+          }
+          }
+          
+          @media only screen and (min-width: 501px) {
+          .box1{
+              width:30%;
+              height:200px;
+          }
+          }
+            
+      
+      
+      
+      </style>
+    </head>
+    <body>
+    <header></header>
+        <div id="container">
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+            </div>
+<footer>Jeremy Sarachan; <a href="mailto:jsarachan@sjfc.edu"></a></footer>
+    
+    
+    
+    
+    </body>
+</html>
