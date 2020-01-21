@@ -1,0 +1,41 @@
+
+          #container{
+              margin:0 auto;
+              width:800px;
+          }
+          
+          
+          p.toggleText{
+              font-size:2em;   
+              padding:4px;
+              text-align:center; 
+          }
+          
+          article{
+                background-color:#eee;
+          }
+          
+          li{
+              list-style: none;
+          }
+          
+        #menu{
+              z-index:3;
+              position:fixed;
+              left:-100px;
+              top:50px;
+              
+              background-color:#eee;
+              border:2px solid #eee;
+              height:1000px;
+              padding-right:10px;
+              
+          }
+          #MenuToggle{
+             z-index:3;
+              position:fixed;
+              left:0px;
+              top:30px; 
+          }
+         
+   
