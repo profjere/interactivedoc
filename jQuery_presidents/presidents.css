@@ -1,0 +1,26 @@
+body{
+    background-color:#eee;
+}
+
+#Fillmore,#Rutherford,#Garfield{
+position:fixed;
+bottom:-450px;
+left:200px;
+
+    
+}
+
+h1,h1,h1{
+   font-family: cursive;
+    color:#f00;
+}
+
+img{
+    width: 800px;
+}
+
+#nameContainer{
+    display:flex;
+    flex-direction: row;
+   justify-content: space-around;
+}
