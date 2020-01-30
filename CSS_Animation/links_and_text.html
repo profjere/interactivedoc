@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Links and Text</title>
+        <meta name="description" content="CSS Animation 1.">
+        
+           <style>
+               header h1{
+                   text-align:center;
+                   text-shadow: 8px 8px 5px #ddd;
+                   
+                   animation-duration: 3s;
+                   animation-name: appearNow;
+                   animation-timing-function: ease-out;
+               }
+               
+               @keyframes appearNow{
+                   from{
+                       opacity: 0;
+                       transform: scale(.6,.6);
+                       
+                   }
+                   to {
+                       opacity: 1;
+                       transform: scale(1,1);
+                   }
+               }
+               
+               
+               
+               
+               
+               nav{
+                   display:flex;
+                   flex-direction: row;
+                   flex-wrap:no-wrap;
+                   justify-content: space-around;
+               }   
+               
+               nav a{
+                   text-decoration: none;
+                   font-size: 1.5em;
+                   color: #00f;
+                   transition: all .4s ease-out;
+                   /*invisible until the background-color appears*/
+                   border-radius: 15px;
+                   padding:10px;
+               }
+               
+               nav a:hover{
+                   color: #f00;
+                   background-color: #eee;
+               }
+               
+               
+               
+               
+               
+        </style>    
+        
+    </head>
+    <body>
+        <header><h1>A Fine Website</h1></header>
+<nav>
+<div><a href="#">Link1</a></div>        
+<div><a href="#">Link2</a></div>  
+<div><a href="#">Link3</a></div>  
+<div><a href="#">Link4</a></div>  
+</nav>
+         <div id="circle2"></div>
+        
+    </body>
+</html>
+
