@@ -41,6 +41,5 @@ nav .sub-menu li > a {
   color: blue;
 }
 nav .sub-menu li > a:hover {
-  background: lightBlue;
   color: #fff;
 }
