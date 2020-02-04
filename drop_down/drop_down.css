@@ -1,0 +1,46 @@
+nav {
+  font-family: sans-serif;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav ul li {
+  width: 25%;
+}
+@media (max-width: 40em) {
+  nav ul li {
+    width: 100%;
+  }
+}
+nav ul li > ul {
+  display: none;
+  flex-direction: column;
+}
+nav ul li > ul li {
+  width: 100%;
+}
+nav ul li:hover > ul {
+  display: flex;
+}
+nav a {
+  text-transform: uppercase;
+  display: block;
+  background: blue;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav .sub-menu li > a {
+  background: lightBlue;
+  color: blue;
+}
+nav .sub-menu li > a:hover {
+  background: lightBlue;
+  color: #fff;
+}
