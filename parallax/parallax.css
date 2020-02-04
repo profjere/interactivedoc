@@ -1,0 +1,38 @@
+.boxes{
+    width:500px;
+    height:auto;
+    border:1px solid #000;
+    margin-bottom: 5px;
+    position:fixed;
+    opacity:0.75;
+    
+}
+
+#box1{
+    background-color:#f00;
+   top:0px;
+    left:-500px;
+    z-index:1;
+}
+
+#box2{
+    background-color:#0f0;
+    top:-500px;
+    left:0px;
+    z-index:2;
+}
+
+#box3{
+    background-color:#00f;
+    top:0px;
+     right:-4500px;
+    z-index:3;
+}
+
+#largeBox{
+    width:100%;
+    height:5000px;
+    
+}
+
+
