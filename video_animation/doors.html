@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <title>Curtains</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script>
+    $(function() { 
+        
+        $("#one").click(function() {
+            $('#one').animate({
+                'width': '40%',
+                'left':'0%'},500);
+            $('#two').animate({
+                'width': '15%',
+                'left':'40%'},500);
+            $('#three').animate({
+                'width': '15%',
+                'left':'55%'},500);
+            $('#four').animate({
+                'width': '15%',
+                'left':'70%'},500);
+            $('#five').animate({
+                'width': '15%',
+                'left':'85%'},500);
+});
+        
+              $("#two").click(function() {
+            $('#one').animate({
+                'width': '15%',
+                'left':'0px'},500);
+            $('#two').animate({
+                'width': '40%',
+                'left':'15%'},500);
+            $('#three').animate({
+                'width': '15%',
+                'left':'55%'},500);
+            $('#four').animate({
+                'width': '15%',
+                'left':'70%'},500);
+            $('#five').animate({
+                'width': '15%',
+                'left':'85%'},500);
+});
+        
+              $("#three").click(function() {
+            $('#one').animate({
+                'width': '15%',
+                'left':'0px'},500);
+            $('#two').animate({
+                'width': '15%',
+                'left':'15%'},500);
+            $('#three').animate({
+                'width': '40%',
+                'left':'30%'},500);
+            $('#four').animate({
+                'width': '15%',
+                'left':'70%'},500);
+            $('#five').animate({
+                'width': '15%',
+                'left':'85%'},500);
+});
+        
+              $("#four").click(function() {
+            $('#one').animate({
+                'width': '15%',
+                'left':'0px'},500);
+            $('#two').animate({
+                'width': '15%',
+                'left':'15%'},500);
+            $('#three').animate({
+                'width': '15%',
+                'left':'30%'},500);
+            $('#four').animate({
+                'width': '40%',
+                'left':'45%'},500);
+            $('#five').animate({
+                'width': '15%',
+                'left':'85%'},500);
+});
+        
+              $("#five").click(function() {
+            $('#one').animate({
+                'width': '15%',
+                'left':'0px'},500);
+            $('#two').animate({
+                'width': '15%',
+                'left':'15%'},500);
+            $('#three').animate({
+                'width': '15%',
+                'left':'30%'},500);
+            $('#four').animate({
+                'width': '15%',
+                'left':'45%'},500);
+            $('#five').animate({
+                'width': '40%',
+                'left':'60%'},500);
+});
+        
+          
+        
+       
+    
+     });
+    
+    </script>
+      <style>
+          .curtain{
+              width:15%;
+              height:1000px;
+              border:2px solid #000;
+              position:absolute;
+              background-size: cover;
+              
+          }
+          #one{
+              background-image: url('images/Buster_Keaton_in_costume.jpg');
+              left:0px;
+          }
+          #two{
+              background-image: url('images/caligari.jpg');
+              left:100px;
+          }
+          #three{
+              background-image: url('images/meshes.jpg');
+              left:200px;
+          }
+          #four{
+               background-image: url('images/Metropolis.jpg');
+              left:300px;
+          }
+          #five{
+              background-image: url('images/trip%20to%20the%20moon.jpg');
+              left:400px;
+          }
+      
+      </style>
+      
+      
+  </head>
+  <body>
+   <div id="one" class="curtain"></div>
+      <div id="two"  class="curtain"></div>
+      <div id="three"  class="curtain"></div>
+      <div id="four"  class="curtain"></div>
+      <div id="five"  class="curtain"></div>
+    </body>
+  
+    
+   
+    
+    
+    
+</html>
+        
+        
+       
