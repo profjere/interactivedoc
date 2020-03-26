@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <title>Playing a Video</title>
+      
+      
+      
+  </head>
+<body> 
+<button id="playButton" type="button">Play</button>
+<button id="pauseButton" type="button">Pause</button>
+    <button id="muteButton" type="button">Mute</button>
+    <button id="unmuteButton" type="button">Unmute</button><br> 
+<video id="myVid" width="400" height="200">
+ <source src="ActiveVoicesTrailer.mp4" type="video/mp4">
+  Sorry, your browser does not support HTML5 video.
+</video>
+
+<script> 
+var myVideo = document.getElementById("myVid");
+var playButton=document.getElementById("playButton").addEventListener("click", function(){
+    myVideo.play();
+});
+var pauseButton=document.getElementById("pauseButton").addEventListener("click", function(){
+    myVideo.pause();
+    });
+var muteMutton=document.getElementById("muteButton").addEventListener("click", function(){
+    myVideo.volume=0;
+});
+var unMuteButton=document.getElementById("unmuteButton").addEventListener("click", function(){
+   myVideo.volume=1;
+    });
+
+
+</script> 
+</body> 
+</html>
+  
+    
+   
+        
+        
+       
